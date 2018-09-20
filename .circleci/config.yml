@@ -30,6 +30,10 @@ jobs:
           key: v1-dependencies-{{ checksum "package.json" }}
 
       - run: yarn generate
+      - run:
+          name: ls
+          command: |
+            ls
 
   release:
     <<: *defaults
@@ -41,7 +45,6 @@ jobs:
       - run:
           name: ls
           command: |
-            pwd
             ls
       - run:
           name: build docker
