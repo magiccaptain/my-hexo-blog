@@ -33,10 +33,6 @@ jobs:
       - persist_to_workspace:
           root: ~/repo
           paths: .
-      - run:
-          name: ls
-          command: |
-            ls
 
   release:
     <<: *defaults
@@ -46,9 +42,8 @@ jobs:
           at: ~/repo
       - setup_remote_docker
       - run:
-          name: ls
-          command: |
-            ls
+          name: chmod sh
+          command: chmod +x bin/build-docker.sh
       - run:
           name: build docker
           command: bin/build-docker.sh latest $DOCKER_USER $DOCKER_PASS $DOCKER_REGISTRY $DOCKER_REPO
