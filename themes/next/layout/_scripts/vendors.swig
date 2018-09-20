@@ -6,6 +6,8 @@
   }
 </script>
 
+<script type="text/javascript" src="http://7xiqux.com1.z0.glb.clouddn.com/static/js/canvas-nest.js"></script>
+
 {% set js_vendors = {} %}
 {% set js_vendors.jquery      = 'jquery/index.js?v=2.1.3' %}
 
