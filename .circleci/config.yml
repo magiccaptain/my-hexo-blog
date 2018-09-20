@@ -39,6 +39,11 @@ jobs:
           at: ~/repo
       - setup_remote_docker
       - run:
+          name: ls
+          command: |
+            pwd
+            ls
+      - run:
           name: build docker
           command: bin/build-docker.sh latest $DOCKER_USER $DOCKER_PASS $DOCKER_REGISTRY $DOCKER_REPO
 
