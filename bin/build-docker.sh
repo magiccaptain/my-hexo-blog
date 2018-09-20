@@ -27,7 +27,6 @@ if ([ -z $DOCKER_REGISTRY ]); then
 fi
 
 echo "Starting build image with tag ${TAG}"
-unset CI
 docker login -u $DOCKER_USER -p $DOCKER_PASS $DOCKER_REGISTRY
 docker build --build-arg APP_VERSION=${TAG} -t $DOCKER_REPO:$TAG .
 docker push $DOCKER_REPO:$TAG
