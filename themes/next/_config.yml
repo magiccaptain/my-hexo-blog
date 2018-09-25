@@ -194,7 +194,7 @@ avatar:
   # in theme directory(source/images): /images/avatar.gif
   # in site  directory(source/uploads): /uploads/avatar.gif
   # You can also use other linking images.
-  url: http://7xiqux.com1.z0.glb.clouddn.com/developing.png
+  url: http://cdn.stacktop.cn/developing.png
   # If true, the avatar would be dispalyed in circle.
   rounded: false
   # The value of opacity should be choose from 0 to 1 to set the opacity of the avatar.
@@ -900,12 +900,12 @@ vendors:
   # Or use direct links below:
   # pace: //cdn.bootcss.com/pace/1.0.2/pace.min.js
   # pace_css: //cdn.bootcss.com/pace/1.0.2/themes/blue/pace-theme-flash.min.css
-  pace: http://7xiqux.com1.z0.glb.clouddn.com/lib/pace/pace.min.js
-  pace_css: http://7xiqux.com1.z0.glb.clouddn.com/lib/pace/pace-theme-minimal.min.css
+  pace: http://cdn.stacktop.cn/lib/pace/pace.min.js
+  pace_css: http://cdn.stacktop.cn/lib/pace/pace-theme-minimal.min.css
 
   # Internal version: 1.0.0
   # https://github.com/hustcc/canvas-nest.js
-  canvas_nest: 
+  canvas_nest:
 
   # Internal version: 1.0.0
   # See: https://github.com/theme-next/theme-next-three

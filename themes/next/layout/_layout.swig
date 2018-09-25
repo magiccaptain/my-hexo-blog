@@ -22,7 +22,7 @@
   {% include '_third-party/analytics/index.swig' %}
   {{ partial('_scripts/noscript.swig', {}, {cache: theme.cache.enable}) }}
 
-  <link rel="stylesheet" href="http://7xiqux.com1.z0.glb.clouddn.com/static/css/atom-one-dark.min.css">
+  <link rel="stylesheet" href="http://cdn.stacktop.cn/static/css/atom-one-dark.min.css">
 
   <style>
   pre {
@@ -128,7 +128,7 @@
         </span>
       </div>
     {% endif %}
-	
+
     {% if theme.baidushare and theme.baidushare.type === "slide" %}
       <div>
         {% include '_partials/share/baidushare.swig' %}
@@ -166,7 +166,7 @@
   {% include '_third-party/bookmark.swig' %}
   {% include '_third-party/copy-code.swig' %}
 
-  <script src="http://7xiqux.com1.z0.glb.clouddn.com/static/js/highlight.min.js"></script>
+  <script src="http://cdn.stacktop.cn/static/js/highlight.min.js"></script>
   <script type="text/javascript">
   $(function() {
     hljs.initHighlighting();
