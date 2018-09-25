@@ -9,7 +9,7 @@ tags:
 
 # 测试
 
-```jsx harmony
+```typescript
 <div>
   <Row>
     {!loading && (
