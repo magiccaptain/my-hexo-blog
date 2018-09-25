@@ -83,7 +83,7 @@ qiniu:
   access_key: -IYxv6K-_yFA_KMs1QsV6fTcFoYCanPVEEEPHuXh
   secret_key: k5AeAdx5wmtzzI1Tyx_fP-K5C8WMc73_Lv2a6z_x
   dirPrefix: static
-  urlPrefix: http://7xiqux.com1.z0.glb.clouddn.com/static
+  urlPrefix: http://cdn.stacktop.cn/static
   up_host: http://up-z1.qiniu.com
   local_dir: static
   update_exist: true
