@@ -8,7 +8,7 @@ tags: CI
 
 如果将hexo博客部署在云主机上,每次写完日志时都要 generate，deploy，这样比较麻烦，通过github和 circle可以完美实现自动化
 
-# 测试
+# 测试2
 
 ```bash
 yarn install
