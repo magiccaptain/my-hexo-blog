@@ -6,8 +6,6 @@
   }
 </script>
 
-<script type="text/javascript" src="http://cdn.stacktop.cn/static/js/canvas-nest.js"></script>
-
 {% set js_vendors = {} %}
 {% set js_vendors.jquery      = 'jquery/index.js?v=2.1.3' %}
 
