@@ -84,7 +84,7 @@ qiniu:
   secret_key: k5AeAdx5wmtzzI1Tyx_fP-K5C8WMc73_Lv2a6z_x
   dirPrefix: static
   urlPrefix: http://cdn.stacktop.cn/static
-  up_host: http://up-z1.qiniu.com
+  up_host: http://upload.qiniu.com
   local_dir: static
   update_exist: true
   image: 
